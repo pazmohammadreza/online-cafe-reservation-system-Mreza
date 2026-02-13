@@ -9,7 +9,7 @@ from .choices import Status
 
 @login_required
 def reservation_lists(request):
-    return render(request, 'reservations/.html')
+    return render(request, 'reservations/reservation_lists.html')
 
 @login_required
 def pending_list(request):
